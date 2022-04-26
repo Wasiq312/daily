@@ -1,0 +1,168 @@
+    .navbar {
+        position: absolute;
+        top: 84%;
+        right: 0;
+        left: 0;
+        margin: 10px 0px;
+        background-color: rgb(255, 255, 255);
+        padding: 20px 0px;
+        border-radius: 0px;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: 1s;
+        border: 1px solid lightgrey;
+        box-shadow: 0px -0px .2px black;
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    .active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    
+    .navbar ul li {
+        display: block;
+        padding: 15px 0px;
+        text-align: center;
+        border-bottom: 1px solid rgb(231, 211, 211);
+    }
+    
+    .navbar ul li {
+        display: block;
+        padding: 15px 0px;
+        text-align: center;
+    }
+    
+    button {
+        display: block;
+        margin: auto;
+    }
+    
+    #logo {
+        text-align: left;
+    }
+    
+    #menu {
+        display: inline-block;
+        font-size: 22px;
+        color: #000000;
+    }
+    /* Header Media Query End */
+    /*Slider Media Query */
+    
+    #slider-section {
+        padding: 5px 0px 15px 0px;
+    }
+    
+    #slider-section .box {
+        display: flex;
+        max-width: 100%;
+        margin: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .side1 {
+        width: 100%;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .side2 {
+        display: none;
+    }
+    
+    .side1 div {
+        width: 100%;
+        text-align: center !important;
+    }
+    
+    .side1 img {
+        width: 180px;
+    }
+    
+    .side1 h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 27px;
+    }
+    
+    .side1 p {
+        text-align: center;
+        width: 100%;
+        font-size: 15px;
+    }
+    
+    .side1 .btn {
+        margin: 8px 0px;
+        padding: 8px 15px;
+    }
+    /* Slider Media Query End */
+    /* Price Section Query */
+    
+    #prices-boxes {
+        display: flex;
+        margin: 30px auto;
+        max-width: 95%;
+        flex-direction: column;
+    }
+    
+    .price h1 {
+        font-size: 36px;
+    }
+    
+    .price p {
+        width: 100%;
+        margin: 5px auto;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+    }
+    
+    #prices-boxes {
+        display: flex;
+        margin: 25px auto;
+        max-width: 95%;
+    }
+    
+    #box {
+        margin: 8px auto;
+        width: 100%;
+    }
+    /* Price Section Query End */
+    /* Compare Section Query*/
+    
+    table {
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    
+    table td,
+    tr,
+    th {
+        width: 20%;
+        margin: auto;
+        border-bottom: 1px solid lightgray;
+    }
+    
+    #compare-section h1 {
+        font-size: 34px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        color: #1a3d4e;
+        padding: 8px 0px 25px 0px;
+        text-decoration: underline;
+        text-underline-offset: 12px;
+        text-align: center;
+    }
+    /* Compare Section Query End*/
+    /* Footer Start */
+    
+    footer h1 {
+        font-size: 15px;
+        text-align: center;
+        font-weight: 400;
+        transition: 0.2s;
+    }
+    /* Footer end */

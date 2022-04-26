@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header Section Start */
+
+header {
+    max-width: 82%;
+    margin: 10px auto;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0px;
+    position: relative;
+}
+
+#logo {
+    font-size: 20px;
+    color: #e67868;
+}
+
+#logo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn {
+    color: rgb(255 255 255);
+    background-color: #e14836;
+    border: 1px solid rgb(243, 237, 237);
+    padding: 6.5px 15px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+#menu {
+    display: none;
+    transition: 1s ease-out;
+}
+
+#menu.fa-times {
+    transform: rotate(360deg);
+}
+
+
+/* Slider-Section Start */
+
+#slider-section {
+    max-width: 82%;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+    padding: 5px 0px;
+}
+
+#slider-section .box {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.side1 {
+    width: 60%;
+    margin-top: 20px;
+}
+
+.side1 img {
+    width: 200px;
+}
+
+.side1 h1 {
+    width: 80%;
+    text-align: left;
+    font-size: 30px;
+    padding: 10px 0px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+    color: #1a3d4e;
+}
+
+.side1 p {
+    width: 90%;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 2px 0px;
+}
+
+.side1 .deal {
+    color: rgb(151, 0, 0);
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.side1 .btn {
+    margin: 14px 0px;
+    padding: 8px 15px;
+}
+
+.side2 img {
+    height: 456px;
+}
+
+
+/* Price Section Start */
+
+#price-section {
+    max-width: 82%;
+    margin: 20px auto;
+    padding: 5x 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+.price {
+    text-align: center;
+}
+
+.price h1 {
+    font-size: 38px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #1a3d4e;
+    padding: 0px 0px 15px 0px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+.price p {
+    width: 67%;
+    margin: 8px auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+#prices-boxes {
+    display: flex;
+    margin: 30px auto;
+    max-width: 95%;
+}
+
+#box {
+    width: 90%;
+    border: 1.8px solid #19313d;
+    padding: 8px 0px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0px 5px;
+    transition: all 0.4s;
+}
+
+#box:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+#box h1 {
+    font-size: 25px;
+    color: #1a3d4e;
+    border-bottom: 1px solid #e78a80;
+    padding: 3px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+#box ul {
+    padding: 10px 0px;
+}
+
+#box ul li {
+    list-style: none;
+    padding: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#box .btn {
+    margin: 2px auto 8px auto;
+}
+
+
+/* Compare Section */
+
+#compare-section {
+    max-width: 82%;
+    margin: 4px auto;
+    padding: 0px 0px;
+}
+
+#compare-section h1 {
+    font-size: 34px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #1a3d4e;
+    padding: 8px 0px 25px 0px;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    text-align: center;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table td,
+tr,
+th {
+    width: 20%;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+}
+
+table th,
+tr {
+    padding: 8px 0px;
+}
+
+table td {
+    padding: 9px 0px;
+}
+
+
+/* Footer Start */
+
+footer {
+    max-width: 82%;
+    margin: auto;
+    padding: 17px 0px;
+}
+
+footer h1 {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 400;
+    transition: 0.2s;
+}
+
+footer h1:hover {
+    color: #1a3d4e;
+    cursor: pointer;
+}
